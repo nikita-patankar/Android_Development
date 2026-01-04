@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "891236363926",
+    "project_id": "databaselearning-c5206",
+    "storage_bucket": "databaselearning-c5206.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891236363926:android:ab162b44be3b90a5429cb7",
+        "android_client_info": {
+          "package_name": "com.example.databaseadvance_signuppage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCry91tO9oAdljJzXJa3Vlo3p1YTxYiumI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

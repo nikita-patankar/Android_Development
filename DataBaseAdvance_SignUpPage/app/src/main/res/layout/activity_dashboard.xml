@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dasboard_background"
+    android:padding="16dp"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome User"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your data from database:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:textSize="17dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/dashboard_button_background"
+        app:backgroundTint="@null"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUniqueId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UniqueId"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:gravity="start"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/dashboard_button_background"
+        app:backgroundTint="@null"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>
